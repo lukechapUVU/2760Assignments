@@ -1,0 +1,41 @@
+header {
+    background-image: url('imgs/question-mark-header.jpg');
+    height: 169px;
+    width: 900px;
+}
+
+header > h1 {
+    font-size: 44px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+header > h2 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.body-header {
+    color: blue;
+    font-size: 36px;
+}
+
+.body-subheader {
+    color: green;
+    font-size: 24px;
+}
+
+body {
+    width: 900px;
+    height: 1400px;
+    margin: auto;
+    width: 50%;
+}
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 900px;
+}

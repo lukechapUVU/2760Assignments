@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe's Bed and Breakfast</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1 id="company">Joe's Bed and Breakfast</h1>
+        <h2 id="slogan">The best lodging and eatery <br>
+            west of the Mississippi!</h2>
+    </header>
+    <main>
+        <h2>What I learned</h2>
+        <ul class="learned">
+            <li>Making a background image not repeat</li>
+            <li>Linking a stylesheet to the html file</li>
+            <li>Inserting the date using JavaScript</li>
+            <li>Prompting the user for information</li>
+            <li>Connecting a javascript file to the html file</li>
+        </ul>
+        <h3>
+            Today is
+
+            <script>
+                let today = new Date()
+                document.write(today.toLocaleDateString())
+            </script>
+        </h3>
+        <p id="greeting"></p>
+    </main>
+    <footer>
+        Assignment for DGM 2760 by Luke Chapman
+    </footer>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

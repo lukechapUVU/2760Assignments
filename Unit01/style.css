@@ -1,0 +1,35 @@
+header {
+    background-image: url("imgs/header.jpg");
+    padding: 25 0 80 20;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: rgb(3, 3, 104);
+    font-size: 40px;
+}
+
+#slogan {
+    color: rgb(3, 3, 104);
+    font-size: 25px;
+    background: none;
+}
+
+h2 {
+    background-color:gold;
+    padding: 10 0 20 10;
+    color: darkslategrey;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+body {
+    background-color: beige;
+    color: slategray;
+}
+
+footer {
+    text-align: center;
+}

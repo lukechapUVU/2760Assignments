@@ -1,0 +1,33 @@
+header {
+    background-image: url('imgs/inspector-clouseau-banner.jpg');
+    height: 169px;
+    width: 900px;
+}
+
+header > h1 {
+    font-size: 44px;
+    padding-left: 30px;
+    padding-top: 10px;
+    color: red;
+}
+
+header > h2 {
+    font-size: 20px;
+    padding-left: 30px;
+    color: red;
+}
+
+body {
+    width: 900px;
+    height: 1400px;
+    margin: auto;
+    width: 50%;
+}
+
+footer {
+    background-color: grey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 900px;
+}
