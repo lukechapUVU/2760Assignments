@@ -20,14 +20,41 @@
             <li>Implement functions</li>
             <li>Implement a multi level if-then-else</li>
             <li>Use innerText to provide user feedback</li>
-            <li>Implement a switch statement</li>
             <li>Dynamically load a graphic</li>
             <li>Create and append an image element</li>
         </ul>
 
         <h2 class="body-subheader">Instructions</h2>
-        <p id='instructions'></p>
+        <p id='instructions'>
+            In this game you try to guess a number between 1 and 15 in as few as tries as possible. You will be rewarded a ribbon for your skills. Good luck! Refresh the page to restart the game.
+        </p>
+        <div class="game">
+            <article class="column">
+                <h2>Play</h2>
+                <div>
+                    <input id="guess" type="number" placeholder="1 thru 15"/>
+                    <button onclick="evalGuess()">Guess</button>
+                </div>
+            </article>
+            <article class="column">
+                <h2>Tries</h2>
+                <div id="attempts">
 
+                </div>
+            </article>
+            <article class="column">
+                <h2>Feedback</h2>
+                <div id="feedback">
+
+                </div>
+            </article>
+            <article class="column">
+                <h2>Award</h2>
+                <div id="ribbon">
+
+                </div>
+            </article>
+        </div>
     </main>
 
     <footer>
