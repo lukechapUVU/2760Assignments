@@ -1,0 +1,48 @@
+header {
+    background-image: url('imgs/fortune-teller-banner.png');
+    height: 400px;
+    color: white;
+    width: 900px;
+}
+
+header > h1 {
+    font-size: 44px;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+header > h2 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.body-header {
+    color: purple;
+    font-size: 36px;
+}
+
+.body-subheader {
+    color: blue;
+    font-size: 24px;
+}
+
+body {
+    width: 900px;
+    height: 1400px;
+    margin: auto;
+    width: 50%;
+}
+
+#fortune {
+    font-size: 22px;
+    color: red;
+}
+
+footer {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 900px;
+}
