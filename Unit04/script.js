@@ -1,8 +1,15 @@
 document.querySelector('header > h1').innerText = 'Fortune Teller';
 document.querySelector('header > h2').innerText = 'Switch Statements';
 
+function getRandomNumber(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 function getRandomMonth() {
-    let monthNum = Math.floor(Math.random() * 12) + 1;
+    let monthNum = getRandomNumber(1,12);
     switch(monthNum) {
         case 1:
             return 'January';
@@ -46,12 +53,12 @@ function getRandomMonth() {
 }
 
 function getRandomDay() {
-    return Math.floor(Math.random() * 28) + 1;
+    return getRandomNumber(1,28);
 }
 
 function getRandomFortune() {
-    let monthNum = Math.floor(Math.random() * 24) + 1;
-    switch(monthNum) {
+    let fortuneNum = getRandomNumber(1,24);
+    switch(fortuneNum) {
         case 1:
             return 'your best friend will call you';
             break;
