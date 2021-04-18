@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>05 The Arborist</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload='populateList()'>
+    <header>
+        <h1></h1>
+        <h2></h2>
+    </header>
+
+    <main>
+        <div class="row">
+            <div class="column">          
+                <h1 class="body-header">The Arborist</h1>
+                <h2 class="body-subheader">What I learned</h2>
+                <ul class="objectives">
+                    <li>Checking incoming values for errors</li>
+                    <li>Creating and manipulating array values</li>
+                    <li>Implementing Event Handlers</li>
+                    <li>Implementing Event Listeners</li>
+                </ul>
+
+                <h2 class="body-subheader">Adding Tree Practice</h2>
+                <button id='add_blackoak'>Add a black oak tree to the start</button>
+                <button id='add_redwood'>Add a redwood tree to the end</button>
+
+                <h2 class="body-subheader">Removing Tree Practice</h2>
+                <button id='remove_start'>Remove the first tree from the list</button>
+                <button id='remove_2nd'>Remove the second tree from the list</button>
+                <button id='remove_end'>Remove the last tree from the list</button>
+
+                <h2 class="body-subheader">Manipulating Tree Practice</h2>
+                <button id='sort_list'>Sort the list from A>Z</button>
+                <button id='set_upper'>Make all the tree names uppercase</button>
+                <button id='set_lower'>Make all the tree names lowercase</button>
+
+                <h2 class="body-subheader">Getting Tree Practice</h2>
+                <button id='list_3rd'>List the name of the third tree in the list</button>
+                <button id='list_4th'>List the name of the fourth tree in the list</button>
+            </div>
+            <div class="column"> 
+                <h2 class="body-subheader">The Tree List</h2>
+                <p id='list'>
+                </p>
+
+                <h2 class="body-subheader">Error Messages</h2>
+                <p id='errors'>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Assignment for 2760 by Luke Chapman</p>
+    </footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
