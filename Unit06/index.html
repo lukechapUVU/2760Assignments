@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 Nonsense Story</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+        <h2></h2>
+    </header>
+
+    <main>
+        <h1 class="body-header">Nonsense Story</h1>
+                <h2 class="body-subheader">What I learned</h2>
+                <ul class="objectives">
+                    <li>Retrieving text content from html elements</li>
+                    <li>Inserting strings into arrays</li>
+                    <li>Accessing elements in an array</li>
+                    <li>Escaping string characters</li>
+                    <li>Concatenating strings</li>
+                    <li>Using new line characters</li>
+                </ul>
+        <h3>Instructions</h3>
+        <p>The list will separate on spaces or new lines, so there is no need to use commas. You cannot use a noun, adjective, or verb that has two words in it and expect it to be used as one word (e.g. New York).</p>
+        <p>Provide only 3 of each of the options, anymore more or any less will result in an error.</p>
+        <p>The story will make the most sense if you use the root form of your verbs instead of verb forms based on tenses (e.g. run; not running, ran, or will run)</p>
+        <div class="row">
+            <div class="column">    
+                <h2 class="body-subheader">Generate Three Nouns</h2>
+                <textarea id='nouns'></textarea>
+            </div>
+            <div class="column"> 
+                <h2 class="body-subheader">Generate Three Adjectives</h2>
+                <textarea id='adjectives'></textarea>
+            </div>
+            <div class="column"> 
+                <h2 class="body-subheader">Generate Three Verbs</h2>
+                <textarea id='verbs'></textarea>
+            </div>
+        </div>
+        <button onclick='generateStory()'>Generate my story</button>
+        <div>
+            <p id='story'></p>
+        </div>
+    </main>
+    <footer>
+        <p>Assignment for 2760 by Luke Chapman</p>
+    </footer>
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

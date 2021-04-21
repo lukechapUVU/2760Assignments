@@ -1,0 +1,63 @@
+header {
+    background-image: url('imgs/story-banner.jfif');
+    height: 365px;
+    width: 900px;
+}
+
+header > h1 {
+    font-size: 44px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+header > h2 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.body-header {
+    font-size: 36px;
+}
+
+.body-subheader {
+    color: burlywood;
+    font-size: 24px;
+}
+
+body {
+    width: 900px;
+    height: 1400px;
+    margin: auto;
+    width: 50%;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    margin-left: 3%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.objectives {
+    background-color: beige;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: burlywood;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 900px;
+}
