@@ -1,0 +1,68 @@
+header {
+    background-image: url('imgs/hotel-banner.jpg');
+    height: 250px;
+    width: 900px;
+    color: white;
+}
+
+header > h1 {
+    font-size: 44px;
+    padding-left: 30px;
+    padding-top: 60px;
+}
+
+header > h2 {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.body-header {
+    font-size: 36px;
+    color: black;
+}
+
+.body-subheader {
+    color: #f1d874;
+    text-shadow: 2px 2px black;
+    font-size: 24px;
+}
+
+body {
+    width: 900px;
+    height: 1400px;
+    margin: auto;
+    background-color: gray;
+}
+
+.objectives {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    height:50px;
+    background-color: black;
+    color: #f1d874;
+}
+
+.hotels {
+    list-style-type: none;
+    display: flex;
+}
+
+h3, p {
+    color: darkblue;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 900px;
+}
+
+.footer {
+    color: white;
+}

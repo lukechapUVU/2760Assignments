@@ -1,0 +1,28 @@
+{
+    "hotel": [
+        {
+            "name": "Marriott",
+            "rooms": "125",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen"],
+            "address": "3400 Dodge St",
+            "picture": "marriott.jpg"
+        },
+        {
+            "name": "Sheraton",
+            "rooms": "25",
+            "gym": "No",
+            "roomTypes": ["Single", "Double"],
+            "address": "706 John Nolen Dr",
+            "picture": "sheraton.jpg"
+        },
+        {
+            "name": "Hilton",
+            "rooms": "150",
+            "gym": "Yes",
+            "roomTypes": ["King", "Queen", "Double", "Single"],
+            "address": "1801 Greyhound Park Rd",
+            "picture": "hilton.jpg"
+        }
+    ]
+}
