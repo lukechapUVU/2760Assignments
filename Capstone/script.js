@@ -13,7 +13,7 @@ getHaloData().then(data => haloData = data);
 const myOpinion = {
     haloCE: 'Halo CE: This is the best game in my opinion, but that might be based on nostalgia',
     halo2: 'Halo 2: This game has the hardest campaign by far',
-    halo3: 'Halo 3: The brutes in this game are way to easy to kill',
+    halo3: 'Halo 3: The brutes in this game are way too easy to kill',
     halo3ODST: 'Halo 3 ODST: The soundtrack for this game is the most chill',
     halo4: 'Halo 4: The enemies in this game have very good strategic synergy which makes them quite hard',
     haloReach: 'Halo Reach: The multiplayer on this game will forever have the most fun custom games',
