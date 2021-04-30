@@ -1,0 +1,58 @@
+{
+    "game": [
+        {
+            "id": "HaloCE",
+            "name": "Halo: Combat Evolved",
+            "releaseDate": "November 15, 2001",
+            "playableCharacters": ["The Master Chief"],
+            "developer": "Bungie",
+            "missions": ["The Pillar of Autumn", "Halo", "The Truth and Reconciliation", "The Silent Cartographer", "Assault on the Control Room", "343 Guilty Spark", "The Library", "Two Betrayals", "Keyes", "The Maw"],
+            "coverPicture": "HaloCE.png"
+        },
+        {
+            "id": "Halo2",
+            "name": "Halo 2",
+            "releaseDate": "November 9, 2004",
+            "playableCharacters": ["The Master Chief", "The Arbiter"],
+            "developer": "Bungie",
+            "missions": ["The Heretic", "The Armory", "Cario Station", "Outskirts", "Metropolis", "The Arbiter", "The Oracle", "Delta Halo", "Regret", "Sacred Icon", "Quarantine Zone", "Gravemind", "Uprising", "High Charity", "The Great Journey"],
+            "coverPicture": "Halo2.jpg"
+        },
+        {
+            "id": "Halo3",
+            "name": "Halo 3",
+            "releaseDate": "November 25, 2007",
+            "playableCharacters": ["The Master Chief", "The Arbiter"],
+            "developer": "Bungie",
+            "missions": ["Arrival", "Sierra 117", "Crow's Nest", "Tsavo Highway", "The Storm", "Floodgate", "The Ark", "The Covenant", "Cortana", "Halo", "Epilogue"],
+            "coverPicture": "Halo3.jfif"
+        },
+        {
+            "id": "Halo3ODST",
+            "name": "Halo 3: ODST",
+            "releaseDate": "September 22, 2009",
+            "playableCharacters": ["Rookie", "Buck", "Dutch", "Mickey", "Romeo"],
+            "developer": "Bungie",
+            "missions": ["Prepare to Drop", "Mombasa Streets", "Tayari Plaza", "Uplift Reserve", "Kizingo Boulevard", "Oni Alpha Site", "NMPD HQ", "Kikowani Station", "Data Hive", "Coastal Highway", "Epilogue"],
+            "coverPicture": "Halo3ODST.jpg"
+        },
+        {
+            "id": "HaloReach",
+            "name": "Halo Reach",
+            "releaseDate": "September 14, 2010",
+            "playableCharacters": ["Noble 6"],
+            "developer": "Bungie",
+            "missions": ["Noble Actual", "Winter Contingency", "Oni: Sword Base", "Nigthfall", "Tip of the Spear", "Long Night of Solace", "Exodus", "New Alexandria", "The Package", "The Pillar of Autumn", "Epilogue", "Lone Wolf"],
+            "coverPicture": "HaloReach.png"
+        },
+        {
+            "id": "Halo4",
+            "name": "Halo 4",
+            "releaseDate": "November 6, 2012",
+            "playableCharacters": ["The Master Chief"],
+            "developer": "343 Industries",
+            "missions": ["Prologue", "Dawn", "Requiem", "Forerunner", "Infinity", "Reclaimer", "Shutdown", "Composer", "Midnight", "Epilogue"],
+            "coverPicture": "Halo4.jpg"
+        }
+    ]
+}

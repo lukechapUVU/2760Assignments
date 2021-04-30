@@ -1,0 +1,50 @@
+header {
+    background-image: url('imgs/MCC-banner.jpg');
+    height: 421px;
+    width: 900px;
+}
+
+.body-header {
+    font-size: 36px;
+    color: black;
+}
+
+.body-subheader {
+    color: #c1b050;
+    text-shadow: 2px 2px black;
+    font-size: 24px;
+}
+
+body {
+    width: 900px;
+    height: 1400px;
+    margin: auto;
+    background-color: gray;
+    color: white;
+}
+
+button {
+    height:50px;
+    background-color: black;
+    color: #c1b050;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.halo {
+    list-style-type: none;
+    display: flex;
+}
+
+footer {
+    background-color: black;
+    color: #c1b050;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 900px;
+}
+
+.footer {
+    color: #c1b050;
+}
